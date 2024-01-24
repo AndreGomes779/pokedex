@@ -3,13 +3,13 @@
     box-sizing: border-box;
 }
 
-.contente {
-    padding: 1rem;
+.poked img{
+    height: 50px;
 }
 .contente h1{
     margin: 0;
 }
-ol.pokemons {
+.pokemons {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -17,15 +17,17 @@ ol.pokemons {
     grid-template-columns: 1fr 1fr;
 }
 
-ol.pokemons li {
+.pokemon {
     margin: 0.5rem;
     padding: 1.5rem;
     background-color: #14ab6f;
     border-radius: 1rem;
     color: #fff;
     height: 120px;
+    
 }
-ol.pokemons li img{
+img .pokemon{
     max-width: 100%;
     height: 100%;
+    
 }
